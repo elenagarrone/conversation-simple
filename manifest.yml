@@ -6,6 +6,6 @@ applications:
   memory: 256M
   instances: 1
   services:
-  - Robo_advice
+  - conversation
   env:
     NPM_CONFIG_PRODUCTION: false

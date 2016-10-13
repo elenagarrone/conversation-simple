@@ -85,6 +85,18 @@ a {
   border-right: 1px solid #ccc;
 }
 
+.header ul li.rose {
+  position: relative;
+  padding-left: 50px;
+}
+
+.header ul li.rose img {
+  position: absolute;
+  width: 25px;
+  left: 20px;
+  top: 28px;
+}
+
 .header ul li:first-child {
   border-left: 1px solid #ccc;
 }
@@ -199,4 +211,17 @@ a {
   margin: 0;
   padding: 12px 15px;
   font-size: 14px;
+}
+
+.from-watson.latest.top p:before {
+  background-image: url(../img/rosa-sm-w.png);
+  width: 27px;
+  height: 27px;
+  content: '';
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+
+.from-watson p {
+  padding: 0 2rem;
 }

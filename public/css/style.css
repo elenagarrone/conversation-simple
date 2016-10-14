@@ -23,12 +23,20 @@ body {
   float: left;
 }
 
+.center {
+  text-align: center;
+}
+
 .float-left {
   float: left;
 }
 
 .float-right {
   float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 .margin-zero {
@@ -191,12 +199,12 @@ a {
   margin: 12px 15px;
 }
 
-.col-2.default .heading {
+.default .heading {
   background-color: #006688;
   color: #fff;
 }
 
-.col-2.default .text {
+.default .text {
   padding: 15px;
   color: #666;
   background-color: #fff;
@@ -224,4 +232,20 @@ a {
 
 .from-watson p {
   padding: 0 2rem;
+}
+
+.skills {
+  display: inline-table;
+  margin: 15px 70px;
+  min-width: 170px;
+  text-align: left;
+}
+
+.skills ul {
+  padding: 0;
+  margin: 0;
+}
+
+.rosa.text {
+  min-height: 600px;
 }
